@@ -1,5 +1,28 @@
 # Ecommerce_data_analysis
 
-<깃허브 데이터 셋 설명>
-이 데이터셋은 이커머스의 판매 데이터셋 관계도를 나타내며 ((각 레코드는 하나의 거래를 의미합니다.)) 가장 중요한 데이터셋은 주문 관련 컬럼과 날짜 컬럼입니다. 다른 데이터셋에는 제품 정보, 고객과 판매처의 지리적 정보 그리고 정보와 같은 보조적인 정보도 포함되어 있습니다. 
-데이터는 2016년 3월부터 2018년 8월까지의 기간을 다루고 있습니다. 
+## 프로젝트 개요
+Backround about the company, including the industry, active years, business model, and key business metrics. Explain this from the POV of a data analyst who is working at the company.
+Insights and recommendations are provided on the following key areas:
+
+- **Category 1:** 
+- **Category 2:** 
+- **Category 3:** 
+- **Category 4:** 
+
+The SQL queries used to inspect and clean the data for this analysis can be found here [link].
+Targed SQL queries regarding various business questions can be found here [link].
+An interactive Tableau dashboard used to report and explore sales trends can be found here [link].     
+<br>
+
+## 데이터 구조 및 초기 점검
+Olist의 주요 데이터베이스는 총 X개의 레코드를 가진 4개의 테이블(customer, items, orders, products)로 구성되어 있음. 
+
+각 테이블 설명:
+- **customers:**
+- **items:**
+- **orders:**
+- **products:**
+
+[Entity Relationship Diagram here]
+
+
