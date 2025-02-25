@@ -25,4 +25,6 @@ Olist의 주요 데이터베이스는 총 X개의 레코드를 가진 4개의 �
 
 [Entity Relationship Diagram here]
 
+[체인지로그 엑셀 파일 다운받기]
+
 
