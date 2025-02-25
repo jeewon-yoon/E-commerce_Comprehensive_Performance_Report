@@ -24,7 +24,13 @@ Olist의 주요 데이터베이스는 총 X개의 레코드를 가진 4개의 �
 - **products:**
 
 [Entity Relationship Diagram here]
+[체인지로그 엑셀 파일 다운받기]    
+<br>
 
-[체인지로그 엑셀 파일 다운받기]
+## 핵심 요약 
+### 주요 발견 개요(사항)
+Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
+
+[전체 트렌드 시각화 또는 대시보드 스냅샷 삽입!]
 
 
