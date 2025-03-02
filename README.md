@@ -1,9 +1,15 @@
 # Ecommerce_data_analysis
 
 ## 프로젝트 개요
-Backround about the company, including the industry, active years, business model, and key business metrics. Explain this from the POV of a data analyst who is working at the company.
-Insights and recommendations are provided on the following key areas:
+2015년 7월에 설립된 브라질의 이커머스 기업 Olist는 중소기업들이 온라인 마켓플레이스에서 제품을 판매할 수 있도록 연결해주는 플랫폼을 제공하는 오픈 마켓 형식으로 운영됩니다.
+본 프로젝트는 Olist가 보유하고 있는 매출, 주문 수, 제품 라인업 등 방대한 데이터셋을 적극적으로 활용, 분석 및 종합하여 Olist의 경쟁력 강화를 위한 핵심 인사이트를 도출하고자 진행되었으며, (전반적인 매출과 제품 라인별 성과) 다음 2가지 핵심 영역에 대한 분석 결과와 전략적 제안을 제시합니다:
 
+- **매출 동향 분석/전반적인 매출 개요:**
+- **제품라인별 성과분석:**     
+<br>  
+
+(Backround about the company, including the industry, active years, business model, and key business metrics. Explain this from the POV of a data analyst who is working at the company.
+Insights and recommendations are provided on the following key areas:)
 - **Category 1:** 
 - **Category 2:** 
 - **Category 3:** 
