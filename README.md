@@ -24,12 +24,14 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
 Olist의 주요 데이터베이스는 총 X개의 레코드를 가진 4개의 테이블(customer, items, orders, products)로 구성되어 있음. 
 
 각 테이블 설명:
-- **customers:**
-- **items:**
-- **orders:**
-- **products:**
+- **customers:** 고객 아이디, 우편번호, 도시이름, 주 이름 등의 고객정보
+- **items:** 주문 아이디, 제품 아이디, 배달시작 날짜, 가격, 배송비
+- **orders:** 주문 아이디, 고객 아이디, 주문 상태, 구매 날짜시간, 주문 승인 날짜시간, 배달업체 배송된 시간날짜, 배달 시작 시간날짜, 예상 배달도착 시간날짜 
+- **products:** 제품 아이디, 제품 카테고리명, 카테고리명 글자수, 제품 설명 글자수, 제품 사진 퀄리티 등
+<br>    
+<img width="488" alt="Image" src="https://github.com/user-attachments/assets/87e95334-3b4b-4cb8-b344-65b73f782b6a" />
 
-[Entity Relationship Diagram here]
+[Entity Relationship Diagram here]    
 [체인지로그 엑셀 파일 다운받기]    
 <br>
 
@@ -54,7 +56,8 @@ Explain the overarching findings, trends, and themes in 2-3 sentences here. This
 ## 권장사항:
 Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
 * Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**      
+<br>
 
 
 
