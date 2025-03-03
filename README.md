@@ -29,6 +29,8 @@ Olist의 주요 데이터베이스는 총 X개의 레코드를 가진 4개의 �
 <br>    
 <img width="698" alt="Image" src="https://github.com/user-attachments/assets/7173a3ee-e897-46f6-85c0-83e038e2f34d" />
 
+데이터 분석을 시작하기 전, 데이터 품질 관리를 위한 다양한 검증 작업을 수행하고 검토를 통해 데이터셋을 숙지하는 과정을 거침.
+
 [Entity Relationship Diagram here]    
 [체인지로그 엑셀 파일 다운받기]    
 <br>
