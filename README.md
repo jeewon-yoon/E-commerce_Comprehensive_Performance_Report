@@ -27,7 +27,7 @@ Olist의 주요 데이터베이스는 총 X개의 레코드를 가진 4개의 �
 - **orders:** 주문 아이디, 고객 아이디, 주문 상태, 구매 날짜시간, 주문 승인 날짜시간, 배달업체 배송된 시간날짜, 배달 시작 시간날짜, 예상 배달도착 시간날짜 
 - **products:** 제품 아이디, 제품 카테고리명, 카테고리명 글자수, 제품 설명 글자수, 제품 사진 퀄리티 등
 <br>    
-<img width="606" alt="Image" src="https://github.com/user-attachments/assets/7d5ec7a6-2dc0-468c-9342-83baad604fc5" />      
+<img width="698" alt="Image" src="https://github.com/user-attachments/assets/7173a3ee-e897-46f6-85c0-83e038e2f34d" />
 
 [Entity Relationship Diagram here]    
 [체인지로그 엑셀 파일 다운받기]    
