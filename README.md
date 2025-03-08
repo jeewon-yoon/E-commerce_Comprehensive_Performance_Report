@@ -1,4 +1,4 @@
-## 프로젝트 개요
+# 프로젝트 개요
 2015년 7월에 설립된 Olist는 중소기업들이 온라인 마켓플레이스에서 제품을 판매할 수 있도록 연결해주는 플랫폼을 제공하는 오픈 마켓 형식으로 운영되는 브라질의 이커머스 기업입니다.
 본 프로젝트는 Olist가 보유하고 있는 매출, 주문 수, 제품 라인업 등 방대한 데이터셋을 적극적으로 활용, 분석 및 종합하여 Olist의 경쟁력 강화를 위한 핵심 인사이트를 도출하고자 진행되었으며, (전반적인 매출과 제품 라인별 성과) 다음 2가지 핵심 영역에 대한 분석 결과와 전략적 제안을 제시합니다:
 
@@ -11,7 +11,7 @@ Targed SQL queries regarding various business questions can be found here [link]
 An interactive Tableau dashboard used to report and explore sales trends can be found here [link].     
 <br>
 
-## 데이터 구조 및 초기 점검
+# 데이터 구조 및 초기 점검
 Olist의 주요 데이터베이스는 총 97,898개의 레코드를 가진 5개의 테이블(customer, items, orders, products, payments)로 구성되어 있음. 
 
 각 테이블 설명:
@@ -29,8 +29,8 @@ Olist의 주요 데이터베이스는 총 97,898개의 레코드를 가진 5개�
 [체인지로그 엑셀 파일 다운받기]    
 <br>
 
-## 핵심 요약 
-#### 주요 발견 사항/분석 결과 개요
+# 핵심 요약 
+### 주요 발견 사항/분석 결과 개요
 - 2016년 10월을 제외하고 4분기 매출이 바닥($0/$11)을 기록한 이후, 다음달 2017년 1월에 급격히 상승하여 최고 증가율을 보였음($114,090). 2017년 2월에도 전월대비 매출 증가율이 116%(MoM 116%), 주문건수는 132% 증가. 2017년 3월부터 안정적인 증가 추세에 접어든 이후 가장 큰 매출 증가율을 보인 날짜는 2017년 11월 (MoM 49%). 
 - 매출, 주문 모두 전반적으로 증가 추세이며 예측선을 통해 추후에도 지속적으로 상승할 것으로 예측됨. 
 - 평균 구매 금액은 2016년 11월, 12월 바닥을 기록하고 다시 평균 금액 선에 안착됨. 평균 구매 금액 증감율 모두 전월 대비 10% 이내. 평균 구매 금액은 추후 $139로 지속될 것으로 예측됨. 
@@ -39,7 +39,7 @@ Olist의 주요 데이터베이스는 총 97,898개의 레코드를 가진 5개�
 [전체 트렌드 시각화 또는 대시보드 스냅샷 삽입!]     
 <br>    
 
-## 심층 분석(통찰)
+# 심층 분석(통찰)
 ### 1. 매출 트렌드:
 * **2016년 9월 중순부터 2018년 말까지 최고 매출액은 $999,398 최저 매출액은 $0**
   * 2016년 말 매출/주문이 0으로 바닥
@@ -72,7 +72,7 @@ Olist의 주요 데이터베이스는 총 97,898개의 레코드를 가진 5개�
 [Visualization specific to category 2]   
 <br>  
 
-## 권장사항:
+# 권장사항:
 Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
 * Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
 * Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**      
@@ -80,7 +80,7 @@ Based on the insights and findings above, we would recommend the [stakeholder te
 
 
 
-## 가정 및 한계:
+# 가정 및 한계:
 본 분석 과정에서 데이터 상의 문제를 해결하기 위해 여러 가정을 설정하였으며 이에 대한 가정과 한계의 세부사항은 아래와 같습니다.
 * 2016년 말 주문건수/매출액이 데이터 클렌징 과정에서 누락된 값이나 오류가 포함된 행 제거로 사라졌을 경우 정확한 주문건수/매출액이 아닐 수 있음
 * 매출액은 계산가능하나 실제 기업의 영업이익은 알 수 없음. 판매자들이 상품을 올리면서 내는 수수료에 대한 정확한 정보가 요구됨.
