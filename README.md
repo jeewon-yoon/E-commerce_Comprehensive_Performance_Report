@@ -3,12 +3,12 @@
 본 프로젝트는 Olist가 보유하고 있는 매출, 주문 수, 제품 라인업 등 방대한 데이터셋을 적극적으로 활용, 분석 및 종합하여 Olist의 경쟁력 강화를 위한 핵심 인사이트를 도출하고자 진행되었으며, (전반적인 매출과 제품 라인별 성과) 다음 2가지 핵심 영역에 대한 분석 결과와 전략적 제안을 제시합니다:
 
 - **매출 트렌드 분석:** Olist의 과거(2016.09 ~ 2018.08) 매출 패턴을 전체 국가 수준과 26개 주별로 평가하여 매출액, 주문량, 평균 주문 금액(AOV)에 집중한 분석을 수행 
-- **제품라인별 성과 분석:** Olist의 다양한 제품 라인을 다각적으로 분석하여 전체 매출에 미치는 영향을 파악   
+- **제품라인별 성과 분석:** Olist의 다양한 제품 라인을 다각적으로 분석하여 전체 매출에 미치는 영향을 파악
 <br>  
-
-Targed Python queries regarding various business questions can be found here [link].
-An interactive Tableau dashboard used to report and explore sales trends can be found here [link].     
+다양한 비즈니스 문제 해결을 위한 맞춤형 SQL 쿼리 모음은 [링크]에서 확인하실 수 있습니다.
 <br>
+매출 트렌드을 실시간으로 탐색할 수 있는 동적 Tableau 대시보드는 [링크]에서 확인 가능합니다.     
+<br><br>
 
 # 데이터 구조 및 초기 점검
 Olist의 주요 데이터베이스는 총 97,898개의 레코드를 가진 5개의 테이블(customer, items, orders, products, payments)로 구성되어 있음. 
@@ -28,7 +28,7 @@ Olist의 주요 데이터베이스는 총 97,898개의 레코드를 가진 5개�
 데이터를 점검하고 정제하는데 사용된 Python 코드는 여기에서 확인할 수 있습니다 [링크].
 데이터 클렌징 과정에서 이루어진 모든 변경사항에 관한 기록은 여기에서 확인할 수 있습니다.     
 [데이터 수정 내역(changelog) 엑셀 파일 다운받기](https://raw.githubusercontent.com/jeewon-yoon/E-commerce_Comprehensive_Performance_Report/master/Changelog.xlsx) 
-<br>
+<br><br>
 
 # 핵심 요약 
 ### 주요 발견 사항/분석 결과 개요
@@ -38,7 +38,7 @@ Olist의 주요 데이터베이스는 총 97,898개의 레코드를 가진 5개�
 - 다음 섹션에서 추가적으로 현상에 기여한 원인을 심층 분석하고 개선될 수 있는 부분에 대해서 알아봄.
 
 [전체 트렌드 시각화 또는 대시보드 스냅샷 삽입!]     
-<br>    
+<br><br>      
 
 # 심층 분석
 ### 1. 매출 트렌드:
@@ -71,15 +71,13 @@ Olist의 주요 데이터베이스는 총 97,898개의 레코드를 가진 5개�
 * **매출이 점점 감소하는 제품**
 
 [Visualization specific to category 2]   
-<br>  
+<br><br>    
 
 # 권장사항:
 Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
 * Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**      
-<br>
-
-
+* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**          
+<br><br>    
 
 # 가정 및 한계:
 본 분석 과정에서 데이터 상의 문제를 해결하기 위해 여러 가정을 설정하였으며 이에 대한 가정과 한계의 세부사항은 아래와 같습니다.
