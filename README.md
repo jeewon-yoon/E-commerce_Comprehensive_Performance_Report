@@ -6,8 +6,7 @@
 - **제품라인별 성과 분석:** Olist의 다양한 제품 라인을 다각적으로 분석하여 전체 매출에 미치는 영향을 파악   
 <br>  
 
-The SQL queries used to inspect and clean the data for this analysis can be found here [link].
-Targed SQL queries regarding various business questions can be found here [link].
+Targed Python queries regarding various business questions can be found here [link].
 An interactive Tableau dashboard used to report and explore sales trends can be found here [link].     
 <br>
 
@@ -26,7 +25,7 @@ Olist의 주요 데이터베이스는 총 97,898개의 레코드를 가진 5개�
 
 데이터 분석을 시작하기 전, 데이터 품질 관리를 위한 다양한 검증 작업을 수행하고 검토를 통해 데이터셋을 숙지하는 과정을 거침.
 
-데이터를 점검하고 정제하는데 사용된 SQL 쿼리는 여기에서 확인할 수 있습니다 [링크].
+데이터를 점검하고 정제하는데 사용된 Python 코드는 여기에서 확인할 수 있습니다 [링크].
 데이터 클렌징 과정에서 이루어진 모든 변경사항에 관한 기록은 여기에서 확인할 수 있습니다.     
 [데이터 수정 내역(changelog) 엑셀 파일 다운받기](https://raw.githubusercontent.com/jeewon-yoon/E-commerce_Comprehensive_Performance_Report/master/Changelog.xlsx) 
 <br>
