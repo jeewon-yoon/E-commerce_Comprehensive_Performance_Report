@@ -79,9 +79,12 @@ Olist의 주요 데이터베이스는 총 97,898개의 레코드를 가진 5개�
 <br><br>    
 
 # 권장사항:
-Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**          
+분석 결과를 바탕으로 다음과 같은 전략적 권장사항을 제시합니다.
+* 매출액이 큰 비중을 차지하지만 주문이 감소하는 제품에 대해 프로모션 전략. **스포츠/레저와 "컴퓨터/악세서리" 제품라인은 매출액 4위로 전체 매출의 7%를 차지하지만 주문 및 평균 구매금액(AOV)이 감소 추세.**
+**매출액 5위인 "스포츠/레저"와 6위인 "컴퓨터/악세서리"의 매출이 감소 추세.**
+
+* 지역별로 제품라인 구매에 따른 소비패턴을 통한 맞춤형 마케팅. **상파울루는 브라질 전체 인구의 22%가 거주하는 메가시티로 중산층 이상 인구 비중이 높아 소비 시장이 활발. 기존 고객들이 재구매하고 꾸준히 매출이 성장하는 제품라인에 집중.**
+**파라이바는 인구가 적지만 고객당 높은 구매력(LTV)을 보유한 잠재 시장. 고객 세분화를 통해 고소득층의 거주지인 주앙페소아에 거주하는 고객을 대상으로 파라이바에서 인기있는 컴퓨터 또는 시계/선물 제품라인에 대해서 프로모션 가능.**
 <br><br>    
 
 # 가정 및 한계:
