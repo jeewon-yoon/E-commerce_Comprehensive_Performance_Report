@@ -36,7 +36,7 @@ Olist의 주요 데이터베이스는 총 97,898개의 레코드를 가진 5개�
 * **평균 구매 금액(AOV)** 증감율 모두 전월 대비 10% 이내. 추후 $135로 지속될 것으로 예측됨. 
 
 다음 섹션에서 추가적으로 현상에 기여한 원인을 심층 분석하고 개선될 수 있는 부분에 대해서 알아봄.<br><br>  
-<img width="500" height="300" alt="Image" src="https://github.com/user-attachments/assets/9c1da095-cd8b-4623-ba15-7542fd7c82ac" /> 
+<img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/9c1da095-cd8b-4623-ba15-7542fd7c82ac" /> 
 <br><br>      
 
 # 심층 분석
