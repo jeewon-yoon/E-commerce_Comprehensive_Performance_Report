@@ -20,23 +20,21 @@ Olist의 주요 데이터베이스는 총 97,898개의 레코드를 가진 5개�
 - **olist_payments:** 주문 아이디, 결제 유형, 결제금액 등
 
 <br>    
-<img width="698" alt="Image" src="https://github.com/user-attachments/assets/7173a3ee-e897-46f6-85c0-83e038e2f34d" />
-
-데이터 분석을 시작하기 전, 데이터 품질 관리를 위한 다양한 검증 작업을 수행하고 검토를 통해 데이터셋을 숙지하는 과정을 거침.
-
-- 데이터를 점검하고 정제하는데 사용된 Python 코드는 여기에서 확인할 수 있습니다: [링크].<br> 
-- 데이터 클렌징 과정에서 이루어진 모든 변경사항에 관한 기록은 여기에서 확인할 수 있습니다: [데이터 수정 내역(changelog) 엑셀 파일 다운받기](https://raw.githubusercontent.com/jeewon-yoon/E-commerce_Comprehensive_Performance_Report/master/Changelog.xlsx) <br> 
-- 유사한 제품군을 묶어서 정리한 카테고리 테이블은 [여기](https://raw.githubusercontent.com/jeewon-yoon/E-commerce_Comprehensive_Performance_Report/master/category_table.pdf)    에서 확인할 수 있습니다.
+<img width="698" alt="Image" src="https://github.com/user-attachments/assets/7173a3ee-e897-46f6-85c0-83e038e2f34d" />     
+<br><br>      
+데이터 분석을 시작하기 전, 데이터 품질 관리를 위한 다양한 검증 작업을 수행하고 검토를 통해 데이터셋을 숙지하는 과정을 거침.<br><br>     
+      
+- 데이터를 점검하고 정제하는데 사용된 Python 코드는 여기에서 확인할 수 있습니다: [링크].<br>     
+- 데이터 클렌징 과정에서 이루어진 모든 변경사항에 관한 기록(데이터 수정 내역; changelog)은 [여기](https://raw.githubusercontent.com/jeewon-yoon/E-commerce_Comprehensive_Performance_Report/master/Changelog.xlsx)에서 확인할 수 있습니다.<br> 
+- 유사한 제품군을 묶어서 정리한 카테고리 테이블은 [여기](https://raw.githubusercontent.com/jeewon-yoon/E-commerce_Comprehensive_Performance_Report/master/category_table.pdf)에서 확인할 수 있습니다.
 <br><br>
 
 # 핵심 요약 
 ### 주요 발견 사항(분석 결과 개요)
-* 2016년 4분기 매출이 10월을 제외하고 **바닥**(11월: $0 **/** 12월: $11)을 기록한 이후, 연속 2달 동안 급격히 상승하여 $100K씩 증가(1월: $114,090 **/** 2월: $246,890). 
-* **2017년 3월**부터 안정기에 접어들면서 전반적으로 긍정적인 성장 추세이며 예측선을 통해 추후에도 지속적으로 상승할 것으로 예측됨. 
-* 안정적인 성장세 진입한 이후 가장 2017년 11월 전월 대비 가장 큰 매출 증가율(MoM 49%)을 보였고 2018년에는 보다 큰 폭의 상승과 하락이 반복되었는데 6월과 7월 연속해서 매출이 감소.
-* **평균 구매 금액(AOV)** 증감율 모두 전월 대비 10% 이내. 추후 $135로 지속될 것으로 예측됨. 
-
-다음 섹션에서 추가적으로 현상에 기여한 원인을 심층 분석하고 개선될 수 있는 부분에 대해서 알아봄.<br>
+2016년 4분기 매출은 10월($49,157)을 제외하고 바닥(11월: $0 / 12월: $11)을 기록한 후, 2017년 1월($114,090)과 2월($246,890)에 걸쳐 **2개월 연속 100K 이상 급증**하며 상승세로 전환되었습니다. 이후 2017년 3월부터 안정적인 성장 추세를 보였으며, 예측선에 따라 향후 지속적 상승이 전망됩니다.  
+특히 **2017년 11월**에는 전월 대비 **49%의 MoM 성장률**을 기록하며 최대 매출 증가율을 보였으나, 2018년에는 상승과 하락이 반복되는 변동성이 증가했습니다. 예를 들어, **2018년 6월(-15%)과 7월(-8%)** 에는 연속적인 매출 감소가 발생했습니다.  
+한편, 평균 구매 금액(AOV)은 전월 대비 **±10% 범위 내에서 안정적**이었으며, 예측 모델에 따르면 향후 **$135 수준**을 유지할 것으로 예상됩니다.  
+다음 섹션에서는 2018년 성장세 둔화의 원인(경제 환경, 경쟁사 영향 등)을 심층 분석하고, 운영 효율성 제고를 위한 전략을 제시합니다.<br>  
 
 <img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/2f6a014e-7f76-410c-8197-792a2c504a3e" />
 <br><br>      
