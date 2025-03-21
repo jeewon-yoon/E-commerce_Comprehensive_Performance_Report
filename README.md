@@ -37,6 +37,7 @@ Olist의 주요 데이터베이스는 총 97,898개의 레코드를 가진 5개�
 
 다음 섹션에서 추가적으로 현상에 기여한 원인을 심층 분석하고 개선될 수 있는 부분에 대해서 알아봄.<br><br>  
 <img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/9c1da095-cd8b-4623-ba15-7542fd7c82ac" /> 
+<img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/2f6a014e-7f76-410c-8197-792a2c504a3e" />
 <br><br>      
 
 # 심층 분석
