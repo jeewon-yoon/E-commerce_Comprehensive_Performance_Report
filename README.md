@@ -25,7 +25,7 @@ Olist의 주요 데이터베이스는 총 97,898개의 레코드를 가진 5개�
 
 - 데이터를 점검하고 정제하는데 사용된 Python 코드는 여기에서 확인할 수 있습니다: [링크].<br> 
 - 데이터 클렌징 과정에서 이루어진 모든 변경사항에 관한 기록은 여기에서 확인할 수 있습니다: [데이터 수정 내역(changelog) 엑셀 파일 다운받기](https://raw.githubusercontent.com/jeewon-yoon/E-commerce_Comprehensive_Performance_Report/master/Changelog.xlsx) <br> 
-- 유사한 제품군을 묶어서 정리한 카테고리 테이블은 여기에서 확인할 수 있습니다: [링크](https://raw.githubusercontent.com/jeewon-yoon/E-commerce_Comprehensive_Performance_Report/master/category_table.pdf)    
+- 유사한 제품군을 묶어서 정리한 카테고리 테이블은 [여기](https://raw.githubusercontent.com/jeewon-yoon/E-commerce_Comprehensive_Performance_Report/master/category_table.pdf)    에서 확인할 수 있습니다.
 <br><br>
 
 # 핵심 요약 
