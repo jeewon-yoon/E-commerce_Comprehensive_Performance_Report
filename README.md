@@ -1,14 +1,13 @@
 # 프로젝트 개요
 Olist는 2015년 7월에 설립된 브라질의 이커머스 기업으로, 중소기업들이 여러 온라인 마켓플레이스에서 제품을 판매할 수 있도록 지원하는 중개 플랫폼을 제공합니다. Olist는 판매자가 플랫폼을 통해 발생시킨 주문 건수 및 거래 규모에 따라 수익을 창출합니다. 본 프로젝트는 Olist의 매출액, 주문 수, 제품 라인업 등 방대한 데이터셋을 종합 및 분석하여, 더 많은 판매자를 유치하고 Olist의 시장 경쟁력을 강화할 인사이트를 도출하는 것을 목표로 진행되었으며 다음 2가지 핵심 영역에 대한 분석 결과와 전략적 제안을 제시합니다:
 
-- **지역별 매출 트렌드 분석:** 2016년 9월부터 2018년 8월까지의 총 상품 거래액(GMV) 변동을 분석하여 소비 트렌드, 지역별 경제적 요인 등이 플랫폼에 미치는 영향을 파악. 이를 위해 브라질 전체 및 26개 주별로 매출액, 주문량, 평균 주문 금액(AOV)에 집중한 분석을 수행. 
+- **지역별 매출 트렌드 분석:** 2016년 9월부터 2018년 8월까지의 총 상품 거래액(GMV) 변동을 분석하여 지역별 경제적 요인, 소비 트렌드 등이 플랫폼에 미치는 영향을 파악. 이를 위해 브라질 전체 및 26개 주별로 매출액, 주문량, 평균 주문 금액(AOV)에 집중한 분석을 수행. 
 - **제품라인별 성과 분석:** 71개의 제품 라인을 유사한 특성에 따라 제품군으로 재분류하여 각 제품군이 전체 매출에 미치는 영향을 파악하고 어떤 카테고리가 매출을 주도하는지 파악함으로써 판매자들에게 효과적인 판매 전략과 가이드라인을 제공.
 <br>  
 다양한 비즈니스 문제 해결을 위한 Python 코드 모음은 [링크]에서 확인하실 수 있습니다.
 <br>
-지역별 매출 트렌드와 제품라인별 성과를 탐색할 수 있는 동적 Tableau 대시보드는 각각 <a href="https://public.tableau.com/views/Olist_Regional_Sales/Regional_Sales?:language=en-US&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link">링크1</a>
-
-[링크2]에서 확인 가능합니다.          
+지역별 매출 트렌드와 제품라인별 성과를 탐색할 수 있는 동적 Tableau 대시보드는 각각 <a href="https://public.tableau.com/views/Olist_Regional_Sales/Regional_Sales?:language=en-US&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link">링크1(지역별 매출 트렌드)</a>과 
+<a href="https://public.tableau.com/views/Olist_Product_Category/Micro_Dashboard1?:language=en-US&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link">링크2(제품라인별 성과)</a>에서 확인 가능합니다.          
 <br><br>               
 <img width="601" height="350" alt="Image" src="https://github.com/user-attachments/assets/c543fb5d-14d1-4551-b5ec-b811669d3226" />         
 <br><br>
@@ -71,7 +70,11 @@ Olist의 주요 데이터베이스는 총 97,898개의 레코드를 가진 5개�
 <br>
 
 ### 2. 제품라인별 성과:
-(총 71개의 sub 카테고리를 14개의 제품군으로 분류)
+(총 71개의 sub 카테고리를 15개의 제품군으로 분류)
+
+* **이커머스에서 소비자들은 생필품보다 미용, 패션, 악세서리, 스포츠/레저 제품군에 더 많은 지출을 하는 경향을 보임**
+  * 매출액 2위 제품군은 미용/건강, 3위는 패션/악세서리. 패션/악세서리 제품군 내 1위 카테고리는 시계/선물
+  * 유아/위생 제품군은 매출액 11위, 식품/음료는 13위
 
 * **매출 1순위 제품군은 가구/인테리어, 매출 1순위 카테고리는 건강/뷰티**
   * 가구/인테리어 제품군 내 최다 주문 및 구매개수 카테고리는 "침구/욕실/테이블"
