@@ -8,7 +8,7 @@ Olist는 2015년 7월에 설립된 브라질의 이커머스 기업으로, 중�
 <br>
 지역별 매출 트렌드와 제품라인별 성과를 탐색할 수 있는 동적 Tableau 대시보드는 각각 [링크1] [링크2]에서 확인 가능합니다.       
 <br>
-<img width="701" height="500" alt="Image" src="https://github.com/user-attachments/assets/c543fb5d-14d1-4551-b5ec-b811669d3226" />
+<img width="601" height="450" alt="Image" src="https://github.com/user-attachments/assets/c543fb5d-14d1-4551-b5ec-b811669d3226" />
 
 <br><br>  
 
