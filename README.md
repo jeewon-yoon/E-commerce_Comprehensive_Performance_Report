@@ -37,7 +37,7 @@ Olist의 주요 데이터베이스는 총 97,898개의 레코드를 가진 5개�
 다음 섹션에서는 2016년 말 매출이 바닥이었던 이유와 2018년 성장세 둔화의 원인(경제 환경, 경쟁사 영향 등)을 심층 분석하고, 운영 효율성 제고를 위한 전략을 제시합니다.<br>  
 
 <img width="613" alt="Image" src="https://github.com/user-attachments/assets/b19ca950-bfd9-498b-a241-c5d3af6f5a1f" />
-<img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/2f6a014e-7f76-410c-8197-792a2c504a3e" />
+<img width="663" alt="Image" src="https://github.com/user-attachments/assets/d9ac8207-da27-4a26-b485-5fbdc7821290" />
 <br><br>      
 
 # 심층 분석
