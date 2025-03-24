@@ -24,7 +24,7 @@ Olist의 주요 데이터베이스는 총 97,898개의 레코드를 가진 5개�
 <br><br>      
 데이터 분석을 시작하기 전, 데이터 품질 관리를 위한 다양한 검증 작업을 수행하고 검토를 통해 데이터셋을 숙지하는 과정을 거침.<br><br>     
       
-- 데이터를 점검하고 정제하는데 사용된 Python 코드는 여기에서 확인할 수 있습니다: [링크].<br>     
+- 데이터를 점검하고 정제하는데 사용된 Python 코드는 [여기](https://raw.githubusercontent.com/jeewon-yoon/E-commerce_Comprehensive_Performance_Report/master/1_cleaning.ipynb)에서 확인할 수 있습니다.<br>     
 - 데이터 클렌징 과정에서 이루어진 모든 변경사항에 관한 기록(데이터 수정 내역; changelog)은 [여기](https://raw.githubusercontent.com/jeewon-yoon/E-commerce_Comprehensive_Performance_Report/master/Changelog.xlsx)에서 확인할 수 있습니다.<br> 
 - 유사한 제품군을 묶어서 정리한 카테고리 테이블은 [여기](https://raw.githubusercontent.com/jeewon-yoon/E-commerce_Comprehensive_Performance_Report/master/category_table.pdf)에서 확인할 수 있습니다.
 <br><br>
@@ -36,6 +36,7 @@ Olist의 주요 데이터베이스는 총 97,898개의 레코드를 가진 5개�
 한편, 평균 구매 금액(AOV)은 전월 대비 **±10% 범위 내에서 안정적**이었으며, 예측 모델에 따르면 향후 **$135 수준**을 유지할 것으로 예상됩니다.  
 다음 섹션에서는 2016년 말 매출이 바닥이었던 이유와 2018년 성장세 둔화의 원인(경제 환경, 경쟁사 영향 등)을 심층 분석하고, 운영 효율성 제고를 위한 전략을 제시합니다.<br>  
 
+<img width="613" alt="Image" src="https://github.com/user-attachments/assets/b19ca950-bfd9-498b-a241-c5d3af6f5a1f" />
 <img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/2f6a014e-7f76-410c-8197-792a2c504a3e" />
 <br><br>      
 
