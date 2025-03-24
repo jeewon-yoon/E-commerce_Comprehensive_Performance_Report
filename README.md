@@ -7,7 +7,10 @@ Olist는 2015년 7월에 설립된 브라질의 이커머스 기업으로, 중�
 다양한 비즈니스 문제 해결을 위한 Python 코드 모음은 [링크]에서 확인하실 수 있습니다.
 <br>
 지역별 매출 트렌드와 제품라인별 성과를 탐색할 수 있는 동적 Tableau 대시보드는 각각 [링크1] [링크2]에서 확인 가능합니다.       
-<br><br><br>  
+<br>
+<img width="831" alt="Image" src="https://github.com/user-attachments/assets/c543fb5d-14d1-4551-b5ec-b811669d3226" />
+
+<br><br>  
 
 # 데이터 구조 및 초기 점검
 Olist의 주요 데이터베이스는 총 97,898개의 레코드를 가진 5개의 테이블(customer, items, orders, products, payments)로 구성되어 있음. 
