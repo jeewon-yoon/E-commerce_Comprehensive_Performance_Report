@@ -11,7 +11,7 @@ Olist는 2015년 7월에 설립된 브라질의 이커머스 기업으로, 중�
 <br><br>
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/76028ed7-3acc-4148-b06e-f79877b384ce" />
 <br><br>
-<img width="900" alt="image" src="https://github.com/user-attachments/assets/0741578e-567d-418d-9151-9a8a9d92ef90" />
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/0741578e-567d-418d-9151-9a8a9d92ef90" />
 <br><br>
 <img width="544" alt="image" src="https://github.com/user-attachments/assets/2e4fd467-f483-47d2-9d51-229890986ef8" />
 
