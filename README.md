@@ -4,14 +4,15 @@ Olist는 2015년 7월에 설립된 브라질의 이커머스 기업으로, 중�
 - **지역별 매출 트렌드 분석:** 2016년 9월부터 2018년 8월까지의 총 상품 거래액(GMV) 변동을 분석하여 지역별 경제적 요인, 소비 트렌드 등이 플랫폼에 미치는 영향을 파악. 이를 위해 브라질 전체 및 26개 주별로 매출액, 주문량, 평균 주문 금액(AOV)에 집중한 분석을 수행. 
 - **제품라인별 성과 분석:** 71개의 제품 라인을 유사한 특성에 따라 제품군으로 재분류하여 각 제품군이 전체 매출에 미치는 영향을 파악하고 어떤 카테고리가 매출을 주도하는지 파악함으로써 판매자들에게 효과적인 판매 전략과 가이드라인을 제공.
 <br>  
-다양한 비즈니스 문제 해결을 위한 Python 코드 모음은 [링크]에서 확인하실 수 있습니다.
-<br>
 지역별 매출 트렌드와 제품라인별 성과를 탐색할 수 있는 동적 Tableau 대시보드는 각각 <a href="https://public.tableau.com/views/Olist_Regional_Sales/Regional_Sales?:language=en-US&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link">링크1(지역별 매출 트렌드)</a>과 
 <a href="https://public.tableau.com/views/Olist_Product_Category/Micro_Dashboard1?:language=en-US&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link">링크2(제품라인별 성과)</a>에서 확인 가능합니다.          
 <br><br>               
 <img width="601" height="350" alt="Image" src="https://github.com/user-attachments/assets/c543fb5d-14d1-4551-b5ec-b811669d3226" />         
 <br><br>
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/76028ed7-3acc-4148-b06e-f79877b384ce" />
+<br><br>
+<img width="544" alt="image" src="https://github.com/user-attachments/assets/2e4fd467-f483-47d2-9d51-229890986ef8" />
+
 
 <br><br>  
 
@@ -20,17 +21,17 @@ Olist의 주요 데이터베이스는 총 97,898개의 레코드를 가진 5개�
 
 각 테이블 설명:
 - **olist_customers:** 고객 아이디, 우편번호, 도시이름, 주 이름 등의 고객정보
-- **olist_items:** 주문 아이디, 제품 아이디, 배달시작 날짜, 가격, 배송비
+- **olist_order_items:** 주문 아이디, 제품 아이디, 배달시작 날짜, 가격, 배송비
 - **olist_orders:** 주문 아이디, 고객 아이디, 주문 상태, 구매 날짜시간, 주문 승인 날짜시간, 배달업체 배송된 시간날짜, 배달 시작 시간날짜, 예상 배달도착 시간날짜 
 - **olist_products:** 제품 아이디, 제품 카테고리명, 카테고리명 글자수, 제품 설명 글자수, 제품 사진 퀄리티 등
-- **olist_payments:** 주문 아이디, 결제 유형, 결제금액 등
+- **olist_order_payments:** 주문 아이디, 결제 유형, 결제금액 등
 
 <br>    
 <img width="698" alt="Image" src="https://github.com/user-attachments/assets/7173a3ee-e897-46f6-85c0-83e038e2f34d" />     
 <br><br>      
-데이터 분석을 시작하기 전, 데이터 품질 관리를 위한 다양한 검증 작업을 수행하고 검토를 통해 데이터셋을 숙지하는 과정을 거침.<br><br>     
+데이터 분석을 시작하기 전, 데이터 품질 관리를 위한 전처리 작업을 수행하고 검토를 통해 데이터셋을 숙지하는 과정을 거침.<br><br>     
       
-- 데이터를 점검하고 정제하는데 사용된 Python 코드는 여기([링크 1](https://raw.githubusercontent.com/jeewon-yoon/E-commerce_Comprehensive_Performance_Report/master/1_cleaning.ipynb) & [링크 2](https://raw.githubusercontent.com/jeewon-yoon/E-commerce_Comprehensive_Performance_Report/master/0_exploration.ipynb))에서 확인할 수 있습니다.<br>     
+- 데이터를 탐색하고 전처리(클렌징)하는데 사용된 Python 코드는 여기([링크 1](https://raw.githubusercontent.com/jeewon-yoon/E-commerce_Comprehensive_Performance_Report/master/1_cleaning.ipynb) & [링크 2](https://raw.githubusercontent.com/jeewon-yoon/E-commerce_Comprehensive_Performance_Report/master/0_exploration.ipynb))에서 확인할 수 있습니다.<br>     
 - 데이터 클렌징 과정에서 이루어진 모든 변경사항에 관한 기록(데이터 수정 내역; changelog)은 [여기](https://raw.githubusercontent.com/jeewon-yoon/E-commerce_Comprehensive_Performance_Report/master/Changelog.xlsx)에서 확인할 수 있습니다.<br> 
 - 유사한 제품군을 묶어서 정리한 카테고리 테이블은 [여기](https://raw.githubusercontent.com/jeewon-yoon/E-commerce_Comprehensive_Performance_Report/master/category_table.pdf)에서 확인할 수 있습니다.
 <br><br>
